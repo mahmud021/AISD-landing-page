@@ -21,22 +21,24 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-black">
-<section class="relative min-h-[80vh] w-full overflow-hidden">
-    <!-- Background with gradient overlay and floating shapes -->
-    <div class="absolute inset-0 bg-gradient-to-br from-aisd-blue via-gray-800 to-gray-900 z-0">
-        <!-- Animated floating shapes -->
-        <div class="absolute top-20 left-10 w-16 h-16 rounded-full bg-aisd-orange/20 floating"></div>
-        <div class="absolute top-1/3 right-1/4 w-10 h-10 rounded-full bg-white/10 floating" style="animation-delay: 1.5s;"></div>
-        <div class="absolute bottom-1/4 left-1/3 w-12 h-12 rotate-45 bg-aisd-teal/15 floating" style="animation-delay: 2.5s;"></div>
-        <div class="absolute bottom-20 right-20 w-14 h-14 rounded-full bg-aisd-orange/15 floating" style="animation-delay: 3.5s;"></div>
-
-        <!-- Abstract grid pattern -->
-        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<section class="relative h-[70vh] w-full overflow-hidden">
+    <!-- Background Image with Gradient Overlay -->
+    <div
+        class="absolute inset-0 bg-cover bg-center z-0"
+        style="background-image: url('{{ asset('images/hero.jpg') }}');"
+    >
+        <div class="absolute inset-0 bg-gradient-to-l from-neutral-400/0 via-neutral-600/60 to-neutral-800/80"></div>
     </div>
 
-    <!-- Content Container -->
-    <div class="relative z-10 flex flex-col justify-center min-h-[80vh] px-4 md:px-16 lg:px-24 gap-4 md:gap-6">
-        <!-- University Badge -->
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col justify-center h-full px-4 md:px-16 gap-4 md:gap-6">
+        <h1 class="text-white text-3xl md:text-6xl font-bold font-teachers leading-tight max-w-4xl">
+            Transforming Health Systems for
+            <span class="text-orange-500">Lasting Impact</span>
+        </h1>
+        <p class="text-white text-base md:text-xl font-extrabold font-lexend max-w-2xl">
+            AISD – African Institute for Solutions and Development
+        </p>
         <div class="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full w-fit border border-white/20 mb-4">
             <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
                 <i class="fas fa-graduation-cap text-aisd-orange text-xl"></i>
@@ -46,45 +48,11 @@
                 </span>
         </div>
 
-        <!-- Main Heading -->
-        <h1 class="text-white text-4xl md:text-6xl lg:text-7xl font-bold font-teachers leading-tight max-w-4xl">
-            Transforming Health Systems for
-            <span class="text-aisd-orange relative">
-                    Lasting Impact
-                    <span class="absolute -bottom-2 left-0 w-full h-1 bg-aisd-orange rounded-full"></span>
-                </span>
-        </h1>
-
-        <!-- Organization Name -->
-        <div class="flex items-center mt-2">
-            <div class="h-px w-12 bg-aisd-orange mr-4"></div>
-            <p class="text-white text-xl md:text-2xl font-extrabold font-lexend">
-                AISD – African Institute for Solutions and Development
-            </p>
-        </div>
-        <!-- CTA Button with Animation -->
-        <div class="flex flex-col sm:flex-row gap-4 mt-8">
-            <a href="#" class="relative group w-fit bg-aisd-orange text-white text-sm md:text-lg font-bold font-rubik px-8 py-4 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
-                <span>Partner With Us</span>
-                <span class="absolute -right-2 -top-2 w-6 h-6 bg-white rounded-full flex items-center justify-center text-aisd-orange text-xs">
-                        <i class="fas fa-arrow-right"></i>
-                    </span>
-                <div class="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-10 transition-opacity"></div>
-            </a>
-
-            <a href="#" class="w-fit bg-transparent border-2 border-white text-white text-sm md:text-lg font-bold font-rubik px-8 py-4 rounded-full hover:bg-white/10 transition">
-                <span>Learn More</span>
-                <i class="fas fa-chevron-down ml-2 text-xs"></i>
-            </a>
-        </div>
-    </div>
-
-    <!-- Scrolling Indicator -->
-    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center">
-        <p class="text-white/80 text-sm font-inter mb-2">Explore our impact</p>
-        <div class="pulse w-8 h-12 rounded-full border-2 border-white/50 flex items-start justify-center mx-auto">
-            <div class="w-2 h-2 bg-white rounded-full mt-2"></div>
-        </div>
+        <!-- CTA Button -->
+        <a href="#"
+           class="mt-4 w-fit bg-orange-500 text-white text-sm md:text-lg font-bold font-rubik px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-orange-600 transition">
+            Partner With Us
+        </a>
     </div>
 </section>
 <section class="w-full py-16 px-6 md:px-16 bg-white">
