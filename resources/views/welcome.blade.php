@@ -25,7 +25,7 @@
     <!-- Background Image with Gradient Overlay -->
     <div
         class="absolute inset-0 bg-cover bg-center z-0"
-        style="background-image: url('{{ asset('images/hero.jpg') }}');"
+        style="background-image: url('{{ asset('images/1.jpg') }}');"
     >
         <div class="absolute inset-0 bg-gradient-to-l from-neutral-400/0 via-neutral-600/60 to-neutral-800/80"></div>
     </div>
@@ -60,7 +60,7 @@
         <!-- Image -->
         <div class="w-full md:w-[45%]">
             <img
-                src="https://placehold.co/488x429"
+                src="{{asset('images/2.jpg')}}"
                 alt="AISD banner"
                 class="w-full h-auto rounded-2xl object-cover shadow-md"
             />
@@ -149,17 +149,17 @@
                 <div class="-mx-3 flex items-center sm:-mx-4">
                     <div class="w-full px-3 sm:px-4 xl:w-1/2">
                         <div class="py-3 sm:py-4">
-                            <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-1.jpg" alt=""
+                            <img src="{{asset('images/5.jpg')}}" alt=""
                                  class="w-full rounded-2xl" />
                         </div>
                         <div class="py-3 sm:py-4">
-                            <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-2.jpg" alt=""
+                            <img src="{{asset('images/4.jpg')}}" alt=""
                                  class="w-full rounded-2xl" />
                         </div>
                     </div>
                     <div class="w-full px-3 sm:px-4 xl:w-1/2">
                         <div class="relative z-10 my-4">
-                            <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-3.jpg" alt=""
+                            <img src="{{asset('images/3.jpg')}}" alt=""
                                  class="w-full rounded-2xl" />
                             <span class="absolute -bottom-7 -right-7 z-[-1]">
                                 <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -393,7 +393,7 @@
 
             <!-- Card 1 -->
             <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Out-of-School Study" class="w-full h-40 object-cover rounded-t">
+                <img src="{{asset('images/6.jpg')}}" alt="Out-of-School Study" class="w-full h-40 object-cover rounded-t">
                 <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
                     <div class="w-fit">
   <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
@@ -411,7 +411,7 @@
 
             <!-- Card 2 -->
             <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Child Labor Study" class="w-full h-40 object-cover rounded-t">
+                <img src="{{asset('images/7.jpg')}}" alt="Child Labor Study" class="w-full h-40 object-cover rounded-t">
                 <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
                     <div class="w-fit">
   <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
@@ -429,7 +429,7 @@
 
             <!-- Card 3 -->
             <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Diabetes Study" class="w-full h-40 object-cover rounded-t">
+                <img src="{{asset('images/8.jpg')}}" alt="Diabetes Study" class="w-full h-40 object-cover rounded-t">
                 <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
                     <div class="w-fit">
   <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
@@ -447,7 +447,7 @@
 
             <!-- Card 4 -->
             <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Drug Vigilance Study" class="w-full h-40 object-cover rounded-t">
+                <img src="{{asset('images/9.jpg')}}" alt="Drug Vigilance Study" class="w-full h-40 object-cover rounded-t">
                 <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
                     <div class="w-fit">
   <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
@@ -582,60 +582,39 @@
         <!-- Section Header -->
         <div class="text-center mb-12">
             <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Projects We Have Done</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Holistic Development: Community-Led Transformation Programs</p>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">
+                Holistic Development: Community-Led Transformation Programs
+            </p>
         </div>
 
         <!-- Grid Layout -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
             <!-- Project Card -->
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/image.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Girl Child Education Program</h3>
-                    <p class="text-white text-sm mt-1">Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.</p>
-                </div>
-            </div>
+            @foreach([
+              ['img' => '10.jpg', 'title' => 'Girl Child Education Program', 'desc' => 'Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.'],
+              ['img' => '11.jpg', 'title' => 'Hygiene Promotion Campaign', 'desc' => 'MAAUN students educate communities on waste management and environmental cleanliness.'],
+              ['img' => '12.jpg', 'title' => 'Out-of-School Children Program', 'desc' => 'Provides alternative schooling and daily nutrition to street hawkers and child laborers.'],
+              ['img' => '13.jpg', 'title' => 'Conflict Management and Peacebuilding', 'desc' => 'Equipping individuals with communication and mediation skills for conflict resolution.'],
+              ['img' => '14.jpg', 'title' => 'Livelihood Training Centers', 'desc' => 'Training centers in Maiduguri, Bama, and Ngala for vocational skills.'],
+              ['img' => '15.jpg', 'title' => 'Economic Empowerment Initiative', 'desc' => 'Boot camps for women and youth traders focused on business and financial skills.']
+            ] as $project)
+                <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                    <!-- Project Image -->
+                    <img src="{{ asset('images/' . $project['img']) }}" alt="{{ $project['title'] }}"
+                         class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
 
-            <!-- Repeat similar structure for other projects -->
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/unsplash-iigovkrty8g.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Hygiene Promotion Campaign</h3>
-                    <p class="text-white text-sm mt-1">MAAUN students educate communities on waste management and environmental cleanliness.</p>
-                </div>
-            </div>
+                    <!-- Gradient Overlay -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/unsplash-cveoh-jjmee-2.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Out-of-School Children Program</h3>
-                    <p class="text-white text-sm mt-1">Provides alternative schooling and daily nutrition to street hawkers and child laborers.</p>
+                    <!-- Text Content -->
+                    <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                        <h3 class="text-lg font-bold drop-shadow-md">{{ $project['title'] }}</h3>
+                        <p class="text-sm mt-1 drop-shadow-md">{{ $project['desc'] }}</p>
+                    </div>
                 </div>
-            </div>
+            @endforeach
 
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/unsplash-1-aa2fadydc.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Conflict Management and Peacebuilding</h3>
-                    <p class="text-white text-sm mt-1">Equipping individuals with communication and mediation skills for conflict resolution.</p>
-                </div>
-            </div>
-
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/unsplash-iigovkrty8g-2.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Livelihood Training Centers</h3>
-                    <p class="text-white text-sm mt-1">Training centers in Maiduguri, Bama, and Ngala for vocational skills.</p>
-                </div>
-            </div>
-
-            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                <img src="img/unsplash-cveoh-jjmee.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
-                    <h3 class="text-white text-lg font-bold">Economic Empowerment Initiative</h3>
-                    <p class="text-white text-sm mt-1">Boot camps for women and youth traders focused on business and financial skills.</p>
-                </div>
-            </div>
         </div>
     </div>
 </section>
