@@ -368,72 +368,140 @@
 
 <section class="relative bg-white py-20">
     <div class="container mx-auto px-4">
+        <!-- Heading -->
         <div class="mb-12 max-w-3xl">
             <h2 class="text-sm font-bold tracking-widest text-cyan-700 uppercase mb-3">Our Strategic Framework</h2>
             <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">The PAACE Vision</h3>
             <p class="text-lg text-gray-700">
-                At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive <strong>PAACE Vision</strong>,
-                a strategic framework that guides every innovation, policy reform, and community engagement we undertake.
-                It’s our commitment to creating a healthier future for all.
+                At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive
+                <strong>PAACE Vision</strong>, a strategic framework that guides every innovation, policy reform, and community
+                engagement we undertake. It’s our commitment to creating a healthier future for all.
             </p>
         </div>
 
+        <!-- Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- P -->
-            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
-                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">P</div>
-                <div class="flex items-start gap-4 relative z-10">
-                    <img src="img/group.png" alt="Icon" class="w-10 h-10" />
-                    <div>
-                        <h4 class="font-bold text-gray-900 text-base">Promoting Health Advancement</h4>
-                        <p class="text-sm text-gray-600 mt-1">
-                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                            Friendly bachelor entrance to on by.
-                        </p>
-                    </div>
+            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                <div class="p-6">
+                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">P</div>
+                    <i data-lucide="heart-pulse" class="mb-4 h-12 w-12 text-pink-500"></i>
+                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Promoting Health Advancement</h5>
+                    <p class="text-base font-light leading-relaxed text-gray-700">
+                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                        Friendly bachelor entrance to on by.
+                    </p>
                 </div>
             </div>
 
             <!-- A -->
-            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
-                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">A</div>
-                <div class="flex items-start gap-4 relative z-10">
-                    <img src="img/image.svg" alt="Icon" class="w-10 h-10" />
-                    <div>
-                        <h4 class="font-bold text-gray-900 text-base">Accountability</h4>
-                        <p class="text-sm text-gray-600 mt-1">
-                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                            Friendly bachelor entrance to on by.
-                        </p>
-                    </div>
+            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                <div class="p-6">
+                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">A</div>
+                    <i data-lucide="shield-check" class="mb-4 h-12 w-12 text-pink-500"></i>
+                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Accountability</h5>
+                    <p class="text-base font-light leading-relaxed text-gray-700">
+                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                        Friendly bachelor entrance to on by.
+                    </p>
                 </div>
             </div>
 
             <!-- A -->
-            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
-                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">A</div>
-                <div class="flex items-start gap-4 relative z-10">
-                    <img src="img/frame.svg" alt="Icon" class="w-10 h-10" />
-                    <div>
-                        <h4 class="font-bold text-gray-900 text-base">Advancement</h4>
-                        <p class="text-sm text-gray-600 mt-1">
-                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                            Friendly bachelor entrance to on by.
-                        </p>
-                    </div>
+            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                <div class="p-6">
+                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">A</div>
+                    <i data-lucide="arrow-up-right" class="mb-4 h-12 w-12 text-pink-500"></i>
+                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Advancement</h5>
+                    <p class="text-base font-light leading-relaxed text-gray-700">
+                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                        Friendly bachelor entrance to on by.
+                    </p>
                 </div>
             </div>
 
             <!-- C -->
-            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
-                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">C</div>
-                <div class="flex items-start gap-4 relative z-10">
-                    <img src="img/frame-2.svg" alt="Icon" class="w-10 h-10" />
+            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                <div class="p-6">
+                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">C</div>
+                    <i data-lucide="users" class="mb-4 h-12 w-12 text-pink-500"></i>
+                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Citizen Engagement</h5>
+                    <p class="text-base font-light leading-relaxed text-gray-700">
+                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                        Friendly bachelor entrance to on by.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<section class="bg-white py-16">
+    <div class="container mx-auto px-4 flex flex-col gap-12">
+        <!-- Title Vertical Text + Line -->
+        <!-- Section Header -->
+        <div class="flex items-center mb-12">
+            <div class="w-12 h-px bg-gray-700 mr-4"></div>
+            <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">Current Activities</h2>
+        </div>
+
+
+        <!-- Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Card 1 -->
+            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Out-of-School Study" class="w-full h-40 object-cover">
+                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
+                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Access to Education</span>
                     <div>
-                        <h4 class="font-bold text-gray-900 text-base">Citizen Engagement</h4>
-                        <p class="text-sm text-gray-600 mt-1">
-                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                            Friendly bachelor entrance to on by.
+                        <h3 class="text-lg font-semibold text-black">Out-of-School Children Study</h3>
+                        <p class="text-sm text-slate-600">
+                            Investigating drivers of out-of-school children in Kano State to inform recommendations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Child Labor Study" class="w-full h-40 object-cover">
+                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
+                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Child Protection</span>
+                    <div>
+                        <h3 class="text-lg font-semibold text-black">Child Labor Study</h3>
+                        <p class="text-sm text-slate-600">
+                            Examining factors of child labor to propose actionable solutions and mitigate practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Diabetes Study" class="w-full h-40 object-cover">
+                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
+                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Public Health</span>
+                    <div>
+                        <h3 class="text-lg font-semibold text-black">Diabetes Study</h3>
+                        <p class="text-sm text-slate-600">
+                            Researching rising diabetes incidences in Northern Nigeria to offer prevention strategies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
+                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
+                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Substance Control</span>
+                    <div>
+                        <h3 class="text-lg font-semibold text-black">Drug Vigilance Study</h3>
+                        <p class="text-sm text-slate-600">
+                            Assessing drug misuse among youth to guide government remediation actions.
                         </p>
                     </div>
                 </div>
@@ -441,6 +509,17 @@
         </div>
     </div>
 </section>
+
+<!-- Lucide Init -->
+<script>
+    lucide.createIcons();
+</script>
+
+
+<!-- Lucide Init -->
+<script>
+    lucide.createIcons();
+</script>
 
 <!-- Lucide Icons -->
 <script src="https://unpkg.com/lucide@latest"></script>
