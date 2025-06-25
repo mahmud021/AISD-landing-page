@@ -49,5 +49,34 @@
         </a>
     </div>
 </section>
+
+<section class="w-full py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+        <!-- Image -->
+        <div class="w-full md:w-[45%]">
+            <img
+                src="https://placehold.co/488x429"
+                alt="AISD banner"
+                class="w-full h-auto rounded-2xl object-cover shadow-md"
+            />
+        </div>
+
+        <!-- Text Content -->
+        <div class="flex-1 space-y-6">
+            <h2 class="text-3xl md:text-5xl font-bold font-teachers leading-snug">
+                A Commitment to Stronger
+                <span class="text-orange-500">African Nations</span>
+                Through Healthier Communities
+            </h2>
+            <p class="text-gray-700 text-base md:text-lg leading-relaxed font-inter">
+                The Alliance for International Health and Development (AISD) is dedicated to strengthening health systems and enhancing well-being across Africa. As the development arm of the Maryam Abacha American University of Nigeria (MAAUN), AISD translates academic knowledge into real-world impact.
+            </p>
+            <p class="text-gray-700 text-base md:text-lg leading-relaxed font-inter">
+                Our core philosophy is that healthier communities are the foundation of stronger nations. We are committed to developing sustainable, evidence-based, and locally-driven health solutions.
+            </p>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
