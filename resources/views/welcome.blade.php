@@ -78,5 +78,78 @@
     </div>
 </section>
 
+<section class="bg-gray-200 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="flex items-center mb-12">
+            <div class="w-12 h-px bg-gray-700 mr-4"></div>
+            <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">Who We Work With</h2>
+        </div>
+
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <!-- Item 1 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="heart-handshake" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">Federal and State Ministries of Health</h3>
+                    <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="landmark" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">Local Government Authorities</h3>
+                    <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="users" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">Community Based Organizations</h3>
+                    <p class="text-sm text-black/60 mt-1">Nunc tristique quis leo duis gravida volutpat vitae</p>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="globe" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">Development Partners</h3>
+                    <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="graduation-cap" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">Academic Institutions</h3>
+                    <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="flex items-start gap-5">
+                <i data-lucide="hospital" class="w-12 h-12 text-cyan-700"></i>
+                <div>
+                    <h3 class="text-xl font-bold font-teachers">National and International Health Agencies</h3>
+                    <p class="text-sm text-black/60 mt-1">Adipiscing in vitae nec posuere eget fringilla a morbi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+
 </body>
 </html>
