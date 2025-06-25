@@ -39,14 +39,15 @@
         <p class="text-white text-base md:text-xl font-extrabold font-lexend max-w-2xl">
             AISD – African Institute for Solutions and Development
         </p>
-        <div class="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full w-fit border border-white/20 mb-4">
-            <div class="bg-white w-10 h-10 rounded-full flex items-center justify-center">
+        <div class="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full w-full max-w-md border border-white/20 mb-4">
+            <div class="shrink-0 bg-white w-10 h-10 rounded-full flex items-center justify-center">
                 <i class="fas fa-graduation-cap text-aisd-orange text-xl"></i>
             </div>
-            <span class="text-white text-sm md:text-base font-inter font-semibold">
-                    Development arm of Maryam Abacha American University of Nigeria
-                </span>
+            <span class="text-white text-sm md:text-base font-inter font-semibold leading-snug break-words">
+    Development arm of Maryam Abacha American University of Nigeria
+  </span>
         </div>
+
 
         <!-- CTA Button -->
         <a href="#"
@@ -83,7 +84,7 @@
     </div>
 </section>
 
-<section class="bg-gray-200 py-20">
+<section class="bg-gray-100 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
         <div class="text-center mb-12">
@@ -91,47 +92,46 @@
             <p class="text-3xl sm:text-4xl font-bold text-gray-800">Partnerships That Power Our Impact</p>
         </div>
 
-
         <!-- Grid Layout -->
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-10">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12">
             <!-- Item -->
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="heart-handshake" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">Federal and State Ministries of Health</h3>
             </div>
 
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="landmark" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">Local Government Authorities</h3>
             </div>
 
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="users" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">Community Based Organizations</h3>
             </div>
 
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="globe" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">Development Partners</h3>
             </div>
 
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="graduation-cap" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">Academic Institutions</h3>
             </div>
 
             <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="hospital" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-800">National & Int’l Health Agencies</h3>
@@ -141,7 +141,7 @@
 </section>
 
 <section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
 
             <!-- Left: TailGrids Image Layout -->
@@ -321,14 +321,13 @@
             </p>
         </div>
 
-
         <!-- Grid -->
         <div class="grid grid-cols-1 mt-12 gap-y-12 text-center sm:grid-cols-2 sm:gap-x-12 md:grid-cols-4 md:gap-y-16 xl:mt-20">
 
             <!-- P -->
             <div class="md:px-4 relative">
                 <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">P</div>
-                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044]">
                     <i data-lucide="heart-pulse" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="mt-8 text-xl font-bold text-gray-900">Promoting Health Advancement</h3>
@@ -340,7 +339,7 @@
             <!-- A -->
             <div class="md:px-4 md:border-l md:border-gray-200 relative">
                 <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">A</div>
-                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044]">
                     <i data-lucide="shield-check" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="mt-8 text-xl font-bold text-gray-900">Accountability</h3>
@@ -352,7 +351,7 @@
             <!-- A -->
             <div class="md:px-4 md:border-l md:border-gray-200 relative">
                 <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">A</div>
-                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044]">
                     <i data-lucide="arrow-up-right" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="mt-8 text-xl font-bold text-gray-900">Advancement</h3>
@@ -364,7 +363,7 @@
             <!-- C -->
             <div class="md:px-4 md:border-l md:border-gray-200 relative">
                 <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">C</div>
-                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044]">
                     <i data-lucide="users" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="mt-8 text-xl font-bold text-gray-900">Citizen Engagement</h3>
@@ -387,20 +386,17 @@
             <p class="text-3xl sm:text-4xl font-bold text-gray-800">Ongoing Projects and Field Engagements</p>
         </div>
 
-
         <!-- Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
             <!-- Card 1 -->
-            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="{{asset('images/6.jpg')}}" alt="Out-of-School Study" class="w-full h-40 object-cover rounded-t">
-                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
-                    <div class="w-fit">
-  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
-    Access to Education
-  </span>
-                    </div>
-                    <div class="flex flex-col gap-3">
+            <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
+                <img src="{{ asset('images/6.jpg') }}" alt="Out-of-School Study" class="w-full h-40 object-cover">
+                <div class="p-5 flex flex-col gap-4">
+          <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+            Access to Education
+          </span>
+                    <div class="flex flex-col gap-2">
                         <h3 class="text-base font-semibold text-black leading-snug">Out-of-School Children Study</h3>
                         <p class="text-sm text-gray-600 leading-relaxed">
                             Investigating drivers of out-of-school children in Kano State to inform recommendations.
@@ -410,15 +406,13 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="{{asset('images/7.jpg')}}" alt="Child Labor Study" class="w-full h-40 object-cover rounded-t">
-                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
-                    <div class="w-fit">
-  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
-    Child Protection
-  </span>
-                    </div>
-                    <div class="flex flex-col gap-3">
+            <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
+                <img src="{{ asset('images/7.jpg') }}" alt="Child Labor Study" class="w-full h-40 object-cover">
+                <div class="p-5 flex flex-col gap-4">
+          <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+            Child Protection
+          </span>
+                    <div class="flex flex-col gap-2">
                         <h3 class="text-base font-semibold text-black leading-snug">Child Labor Study</h3>
                         <p class="text-sm text-gray-600 leading-relaxed">
                             Examining factors of child labor to propose actionable solutions and mitigate practices.
@@ -428,15 +422,13 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="{{asset('images/8.jpg')}}" alt="Diabetes Study" class="w-full h-40 object-cover rounded-t">
-                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
-                    <div class="w-fit">
-  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
-    Public Health
-  </span>
-                    </div>
-                    <div class="flex flex-col gap-3">
+            <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
+                <img src="{{ asset('images/8.jpg') }}" alt="Diabetes Study" class="w-full h-40 object-cover">
+                <div class="p-5 flex flex-col gap-4">
+          <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+            Public Health
+          </span>
+                    <div class="flex flex-col gap-2">
                         <h3 class="text-base font-semibold text-black leading-snug">Diabetes Study</h3>
                         <p class="text-sm text-gray-600 leading-relaxed">
                             Researching rising diabetes incidences in Northern Nigeria to offer prevention strategies.
@@ -446,15 +438,13 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
-                <img src="{{asset('images/9.jpg')}}" alt="Drug Vigilance Study" class="w-full h-40 object-cover rounded-t">
-                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
-                    <div class="w-fit">
-  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
-    Substance Control
-  </span>
-                    </div>
-                    <div class="flex flex-col gap-3">
+            <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
+                <img src="{{ asset('images/9.jpg') }}" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
+                <div class="p-5 flex flex-col gap-4">
+          <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+            Substance Control
+          </span>
+                    <div class="flex flex-col gap-2">
                         <h3 class="text-base font-semibold text-black leading-snug">Drug Vigilance Study</h3>
                         <p class="text-sm text-gray-600 leading-relaxed">
                             Assessing drug misuse among youth to guide government remediation actions.
@@ -467,13 +457,13 @@
     </div>
 </section>
 
-<section class="py-16 bg-gray-200">
+<section class="py-16 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
             <!-- Children Reached -->
             <div class="flex flex-col items-center space-y-3">
-                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="rocket" class="w-6 h-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-4xl font-bold text-[#FF7F50]">20k+</h3>
@@ -482,7 +472,7 @@
 
             <!-- Communities Engaged -->
             <div class="flex flex-col items-center space-y-3">
-                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="users" class="w-6 h-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-4xl font-bold text-[#FF7F50]">50+</h3>
@@ -491,7 +481,7 @@
 
             <!-- Individuals Empowered -->
             <div class="flex flex-col items-center space-y-3">
-                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="activity" class="w-6 h-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-4xl font-bold text-[#FF7F50]">3.5k+</h3>
@@ -500,7 +490,7 @@
 
             <!-- Youth Champions Trained -->
             <div class="flex flex-col items-center space-y-3">
-                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-[#FF7F50] rounded-full shadow outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
                     <i data-lucide="graduation-cap" class="w-6 h-6 text-[#FF7F50]"></i>
                 </div>
                 <h3 class="text-4xl font-bold text-[#FF7F50]">1k+</h3>
