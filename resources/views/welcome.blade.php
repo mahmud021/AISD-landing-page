@@ -86,71 +86,61 @@
 <section class="bg-gray-200 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
-        <div class="flex items-center mb-12">
-            <div class="w-12 h-px bg-gray-700 mr-4"></div>
-            <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">Who We Work With</h2>
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Who We Work With</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Partnerships That Power Our Impact</p>
         </div>
 
+
         <!-- Grid Layout -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-            <!-- Item 1 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="heart-handshake" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">Federal and State Ministries of Health</h3>
-                    <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-10">
+            <!-- Item -->
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="heart-handshake" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">Federal and State Ministries of Health</h3>
             </div>
 
-            <!-- Item 2 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="landmark" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">Local Government Authorities</h3>
-                    <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="landmark" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">Local Government Authorities</h3>
             </div>
 
-            <!-- Item 3 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="users" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">Community Based Organizations</h3>
-                    <p class="text-sm text-black/60 mt-1">Nunc tristique quis leo duis gravida volutpat vitae</p>
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="users" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">Community Based Organizations</h3>
             </div>
 
-            <!-- Item 4 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="globe" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">Development Partners</h3>
-                    <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="globe" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">Development Partners</h3>
             </div>
 
-            <!-- Item 5 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="graduation-cap" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">Academic Institutions</h3>
-                    <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="graduation-cap" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">Academic Institutions</h3>
             </div>
 
-            <!-- Item 6 -->
-            <div class="flex items-start gap-5">
-                <i data-lucide="hospital" class="w-12 h-12 text-[#FF7F50]"></i>
-                <div>
-                    <h3 class="text-xl font-bold font-teachers">National and International Health Agencies</h3>
-                    <p class="text-sm text-black/60 mt-1">Adipiscing in vitae nec posuere eget fringilla a morbi</p>
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md ring-2 ring-white">
+                    <i data-lucide="hospital" class="w-8 h-8 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="text-sm font-semibold text-gray-800">National & Int’l Health Agencies</h3>
             </div>
         </div>
     </div>
 </section>
 
-<section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] dark:bg-dark">
+<section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
     <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
 
@@ -172,138 +162,89 @@
                             <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-3.jpg" alt=""
                                  class="w-full rounded-2xl" />
                             <span class="absolute -bottom-7 -right-7 z-[-1]">
-                  <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="#3056D3" />
-                    <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="#3056D3" />
-                    <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="#3056D3" />
-                    <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="#3056D3" />
-                    <circle cx="60.3334" cy="104" r="1.66667" transform="rotate(-90 60.3334 104)" fill="#3056D3" />
-                    <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="#3056D3" />
-                    <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="#3056D3" />
-                    <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="#3056D3" />
-                    <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="#3056D3" />
-                    <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="#3056D3" />
-                    <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)"
-                            fill="#3056D3" />
-                    <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="#3056D3" />
-                    <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)"
-                            fill="#3056D3" />
-                    <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="#3056D3" />
-                    <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="#3056D3" />
-                    <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)"
-                            fill="#3056D3" />
-                    <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)"
-                            fill="#3056D3" />
-                    <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="#3056D3" />
-                    <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="#3056D3" />
-                    <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="30.9998" r="1.66667" transform="rotate(-90 60.3333 30.9998)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="30.9998" r="1.66667" transform="rotate(-90 88.6667 30.9998)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="30.9998" r="1.66667" transform="rotate(-90 117.667 30.9998)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="30.9998" r="1.66667" transform="rotate(-90 74.6667 30.9998)"
-                            fill="#3056D3" />
-                    <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="#3056D3" />
-                    <circle cx="103" cy="30.9998" r="1.66667" transform="rotate(-90 103 30.9998)" fill="#3056D3" />
-                    <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="#3056D3" />
-                    <circle cx="132" cy="30.9998" r="1.66667" transform="rotate(-90 132 30.9998)" fill="#3056D3" />
-                    <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="1.66667" cy="16.3333" r="1.66667" transform="rotate(-90 1.66667 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="16.3333" r="1.66667" transform="rotate(-90 16.3333 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="#3056D3" />
-                    <circle cx="31" cy="16.3333" r="1.66667" transform="rotate(-90 31 16.3333)" fill="#3056D3" />
-                    <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="45.6667" cy="16.3333" r="1.66667" transform="rotate(-90 45.6667 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="16.3333" r="1.66667" transform="rotate(-90 60.3333 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="16.3333" r="1.66667" transform="rotate(-90 88.6667 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="16.3333" r="1.66667" transform="rotate(-90 117.667 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="16.3333" r="1.66667" transform="rotate(-90 74.6667 16.3333)"
-                            fill="#3056D3" />
-                    <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="#3056D3" />
-                    <circle cx="103" cy="16.3333" r="1.66667" transform="rotate(-90 103 16.3333)" fill="#3056D3" />
-                    <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="#3056D3" />
-                    <circle cx="132" cy="16.3333" r="1.66667" transform="rotate(-90 132 16.3333)" fill="#3056D3" />
-                    <circle cx="1.66667" cy="45.3333" r="1.66667" transform="rotate(-90 1.66667 45.3333)"
-                            fill="#3056D3" />
-                    <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="45.3333" r="1.66667" transform="rotate(-90 16.3333 45.3333)"
-                            fill="#3056D3" />
-                    <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="31" cy="45.3333" r="1.66667" transform="rotate(-90 31 45.3333)" fill="#3056D3" />
-                    <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="#3056D3" />
-                    <circle cx="45.6667" cy="45.3333" r="1.66667" transform="rotate(-90 45.6667 45.3333)"
-                            fill="#3056D3" />
-                    <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)"
-                            fill="#3056D3" />
-                    <circle cx="60.3333" cy="1.66683" r="1.66667" transform="rotate(-90 60.3333 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)"
-                            fill="#3056D3" />
-                    <circle cx="88.6667" cy="1.66683" r="1.66667" transform="rotate(-90 88.6667 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)"
-                            fill="#3056D3" />
-                    <circle cx="117.667" cy="1.66683" r="1.66667" transform="rotate(-90 117.667 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)"
-                            fill="#3056D3" />
-                    <circle cx="74.6667" cy="1.66683" r="1.66667" transform="rotate(-90 74.6667 1.66683)"
-                            fill="#3056D3" />
-                    <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="#3056D3" />
-                    <circle cx="103" cy="1.66683" r="1.66667" transform="rotate(-90 103 1.66683)" fill="#3056D3" />
-                    <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="#3056D3" />
-                    <circle cx="132" cy="1.66683" r="1.66667" transform="rotate(-90 132 1.66683)" fill="#3056D3" />
-                  </svg>
-                </span>
+                                <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="#3056D3" />
+                                    <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="#3056D3" />
+                                    <circle cx="60.3334" cy="104" r="1.66667" transform="rotate(-90 60.3334 104)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="#3056D3" />
+                                    <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="#3056D3" />
+                                    <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)" fill="#3056D3" />
+                                    <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)" fill="#3056D3" />
+                                    <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="#3056D3" />
+                                    <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)" fill="#3056D3" />
+                                    <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="#3056D3" />
+                                    <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="30.9998" r="1.66667" transform="rotate(-90 60.3333 30.9998)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="30.9998" r="1.66667" transform="rotate(-90 88.6667 30.9998)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="30.9998" r="1.66667" transform="rotate(-90 117.667 30.9998)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="30.9998" r="1.66667" transform="rotate(-90 74.6667 30.9998)" fill="#3056D3" />
+                                    <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="#3056D3" />
+                                    <circle cx="103" cy="30.9998" r="1.66667" transform="rotate(-90 103 30.9998)" fill="#3056D3" />
+                                    <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="#3056D3" />
+                                    <circle cx="132" cy="30.9998" r="1.66667" transform="rotate(-90 132 30.9998)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="16.3333" r="1.66667" transform="rotate(-90 1.66667 16.3333)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="16.3333" r="1.66667" transform="rotate(-90 16.3333 16.3333)" fill="#3056D3" />
+                                    <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="#3056D3" />
+                                    <circle cx="31" cy="16.3333" r="1.66667" transform="rotate(-90 31 16.3333)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="16.3333" r="1.66667" transform="rotate(-90 45.6667 16.3333)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="16.3333" r="1.66667" transform="rotate(-90 60.3333 16.3333)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="16.3333" r="1.66667" transform="rotate(-90 88.6667 16.3333)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="16.3333" r="1.66667" transform="rotate(-90 117.667 16.3333)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="16.3333" r="1.66667" transform="rotate(-90 74.6667 16.3333)" fill="#3056D3" />
+                                    <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="#3056D3" />
+                                    <circle cx="103" cy="16.3333" r="1.66667" transform="rotate(-90 103 16.3333)" fill="#3056D3" />
+                                    <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="#3056D3" />
+                                    <circle cx="132" cy="16.3333" r="1.66667" transform="rotate(-90 132 16.3333)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="45.3333" r="1.66667" transform="rotate(-90 1.66667 45.3333)" fill="#3056D3" />
+                                    <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="45.3333" r="1.66667" transform="rotate(-90 16.3333 45.3333)" fill="#3056D3" />
+                                    <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)" fill="#3056D3" />
+                                    <circle cx="31" cy="45.3333" r="1.66667" transform="rotate(-90 31 45.3333)" fill="#3056D3" />
+                                    <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="45.3333" r="1.66667" transform="rotate(-90 45.6667 45.3333)" fill="#3056D3" />
+                                    <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)" fill="#3056D3" />
+                                    <circle cx="60.3333" cy="1.66683" r="1.66667" transform="rotate(-90 60.3333 1.66683)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)" fill="#3056D3" />
+                                    <circle cx="88.6667" cy="1.66683" r="1.66667" transform="rotate(-90 88.6667 1.66683)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)" fill="#3056D3" />
+                                    <circle cx="117.667" cy="1.66683" r="1.66667" transform="rotate(-90 117.667 1.66683)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)" fill="#3056D3" />
+                                    <circle cx="74.6667" cy="1.66683" r="1.66667" transform="rotate(-90 74.6667 1.66683)" fill="#3056D3" />
+                                    <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="#3056D3" />
+                                    <circle cx="103" cy="1.66683" r="1.66667" transform="rotate(-90 103 1.66683)" fill="#3056D3" />
+                                    <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="#3056D3" />
+                                    <circle cx="132" cy="1.66683" r="1.66667" transform="rotate(-90 132 1.66683)" fill="#3056D3" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -312,50 +253,51 @@
             <!-- Right: Your Numbered About Content -->
             <div class="w-full lg:w-1/2 px-4 mt-10 lg:mt-0">
                 <!-- Section Label -->
-                <div class="flex items-center mb-8">
-                    <div class="w-12 h-px bg-gray-800 mr-4"></div>
-                    <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">About Us</h2>
+                <div class="text-center mb-12">
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">About Us</h2>
+                    <p class="text-3xl sm:text-4xl font-bold text-gray-800">Learn About Our Mission and Work</p>
                 </div>
 
+
                 <!-- Vision Statement -->
-                <p class="text-base text-gray-600 mb-10 max-w-md">
+                <p class="text-base text-gray-600  mb-10 max-w-md">
                     To improve health outcomes and well-being across Nigeria and Africa through people-centered innovation, evidence-based advocacy, and community-led solutions.
                 </p>
 
                 <!-- Info Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <!-- Item 1 -->
-                    <div>
-                        <h3 class="text-4xl font-bold text-black mb-2">1.</h3>
-                        <h4 class="text-xl font-bold text-black mb-2">Our Mission</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
+                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
+                        <h3 class="text-4xl font-bold text-black  mb-2">1.</h3>
+                        <h4 class="text-xl font-bold text-black  mb-2">Our Mission</h4>
+                        <p class="text-gray-600  text-sm leading-relaxed">
                             We focus on four key areas: conducting applied research, engaging communities in co-designing solutions, collaborating with institutions, and strengthening the capacity of health professionals.
                         </p>
                     </div>
 
                     <!-- Item 2 -->
-                    <div>
-                        <h3 class="text-4xl font-bold text-black mb-2">2.</h3>
-                        <h4 class="text-xl font-bold text-black mb-2">Our Health Strategy</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
+                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
+                        <h3 class="text-4xl font-bold text-black  mb-2">2.</h3>
+                        <h4 class="text-xl font-bold text-black  mb-2">Our Health Strategy</h4>
+                        <p class="text-gray-600  text-sm leading-relaxed">
                             We help by using evidence-based research, community-centered design, institutional collaboration, and strategic capacity strengthening to tackle health challenges.
                         </p>
                     </div>
 
                     <!-- Item 3 -->
-                    <div>
-                        <h3 class="text-4xl font-bold text-black mb-2">3.</h3>
-                        <h4 class="text-xl font-bold text-black mb-2">A Collaborative Approach</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
+                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
+                        <h3 class="text-4xl font-bold text-black  mb-2">3.</h3>
+                        <h4 class="text-xl font-bold text-black  mb-2">A Collaborative Approach</h4>
+                        <p class="text-gray-600  text-sm leading-relaxed">
                             We are creating a future where all communities are empowered to lead healthier lives through accountable health systems, inclusive research, and sustainable development.
                         </p>
                     </div>
 
                     <!-- Item 4 -->
-                    <div>
-                        <h3 class="text-4xl font-bold text-black mb-2">4.</h3>
-                        <h4 class="text-xl font-bold text-black mb-2">Our Vision for Success</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
+                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
+                        <h3 class="text-4xl font-bold text-black  mb-2">4.</h3>
+                        <h4 class="text-xl font-bold text-black  mb-2">Our Vision for Success</h4>
+                        <p class="text-gray-600  text-sm leading-relaxed">
                             A future where health equity is driven by data, strengthened institutions, and empowered local leadership.
                         </p>
                     </div>
@@ -369,15 +311,16 @@
 <section class="py-16 bg-white sm:py-20 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto">
-            <h2 class="text-sm font-bold tracking-widest text-cyan-700 uppercase mb-3">Our Strategic Framework</h2>
-            <h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl mb-4">The PAAC Vision</h3>
+        <div class="text-center mb-12 max-w-3xl mx-auto">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Our Strategic Framework</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">The PAACE Vision</p>
             <p class="text-lg text-gray-700">
                 At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive
                 <strong>PAACE Vision</strong>, a strategic framework that guides every innovation, policy reform, and community
                 engagement we undertake. It’s our commitment to creating a healthier future for all.
             </p>
         </div>
+
 
         <!-- Grid -->
         <div class="grid grid-cols-1 mt-12 gap-y-12 text-center sm:grid-cols-2 sm:gap-x-12 md:grid-cols-4 md:gap-y-16 xl:mt-20">
@@ -439,10 +382,11 @@
     <div class="container mx-auto px-4 flex flex-col gap-12">
 
         <!-- Section Header -->
-        <div class="flex items-center mb-12">
-            <div class="w-12 h-px bg-gray-700 mr-4"></div>
-            <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">Current Activities</h2>
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Current Activities</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Ongoing Projects and Field Engagements</p>
         </div>
+
 
         <!-- Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -566,6 +510,141 @@
         </div>
     </div>
 </section>
+
+<!-- component -->
+<section class="py-12 bg-white sm:py-16 lg:py-20">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Our Volunteers</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Meet the People Behind the Work</p>
+        </div>
+
+
+        <div class="grid max-w-6xl grid-cols-1 px-20 mx-auto mt-12 text-center sm:px-0 sm:grid-cols-2 md:mt-20 gap-x-8 md:grid-cols-4 gap-y-12 lg:gap-x-16 xl:gap-x-20">
+            <div>
+                <img class="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter" src="https://cdn.rareblocks.xyz/collection/clarity/images/team/1/team-member-1.png" alt="" />
+                <p class="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">Jerome Bell</p>
+                <p class="mt-2 text-base font-normal text-gray-600 font-pj">Co founder, Chairman, Executive Director</p>
+            </div>
+
+            <div>
+                <img class="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter" src="https://cdn.rareblocks.xyz/collection/clarity/images/team/1/team-member-2.png" alt="" />
+                <p class="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">Jerome Bell</p>
+                <p class="mt-2 text-base font-normal text-gray-600 font-pj">Co founder, Chairman, Executive Director</p>
+            </div>
+
+            <div>
+                <img class="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter" src="https://cdn.rareblocks.xyz/collection/clarity/images/team/1/team-member-3.png" alt="" />
+                <p class="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">Jerome Bell</p>
+                <p class="mt-2 text-base font-normal text-gray-600 font-pj">Co founder, Chairman, Executive Director</p>
+            </div>
+
+            <div>
+                <img class="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter" src="https://cdn.rareblocks.xyz/collection/clarity/images/team/1/team-member-4.png" alt="" />
+                <p class="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">Jerome Bell</p>
+                <p class="mt-2 text-base font-normal text-gray-600 font-pj">Co founder, Chairman, Executive Director</p>
+            </div>
+        </div>
+
+        <div class="mt-12 sm:mt-16">
+            <svg class="w-auto h-4 mx-auto text-gray-300" viewBox="0 0 172 16" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 11 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 46 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 81 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 116 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 151 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 18 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 53 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 88 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 123 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 158 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 25 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 60 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 95 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 130 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 165 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 32 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 67 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 102 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 137 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 172 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 39 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 74 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 109 1)" />
+                <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 144 1)" />
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Projects We Have Done</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Holistic Development: Community-Led Transformation Programs</p>
+        </div>
+
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card -->
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/image.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Girl Child Education Program</h3>
+                    <p class="text-white text-sm mt-1">Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.</p>
+                </div>
+            </div>
+
+            <!-- Repeat similar structure for other projects -->
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/unsplash-iigovkrty8g.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Hygiene Promotion Campaign</h3>
+                    <p class="text-white text-sm mt-1">MAAUN students educate communities on waste management and environmental cleanliness.</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/unsplash-cveoh-jjmee-2.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Out-of-School Children Program</h3>
+                    <p class="text-white text-sm mt-1">Provides alternative schooling and daily nutrition to street hawkers and child laborers.</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/unsplash-1-aa2fadydc.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Conflict Management and Peacebuilding</h3>
+                    <p class="text-white text-sm mt-1">Equipping individuals with communication and mediation skills for conflict resolution.</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/unsplash-iigovkrty8g-2.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Livelihood Training Centers</h3>
+                    <p class="text-white text-sm mt-1">Training centers in Maiduguri, Bama, and Ngala for vocational skills.</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                <img src="img/unsplash-cveoh-jjmee.png" alt="" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
+                    <h3 class="text-white text-lg font-bold">Economic Empowerment Initiative</h3>
+                    <p class="text-white text-sm mt-1">Boot camps for women and youth traders focused on business and financial skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
 
 
 <!-- Lucide Icons -->
