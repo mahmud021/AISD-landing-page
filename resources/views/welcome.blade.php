@@ -145,7 +145,6 @@
     </div>
 </section>
 
-<!-- ====== About Section Start ====== -->
 <section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] dark:bg-dark">
     <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
@@ -361,8 +360,82 @@
         </div>
     </div>
 </section>
-<!-- ====== About Section End ====== -->
 
+<section class="relative bg-white py-20">
+    <div class="container mx-auto px-4">
+        <div class="mb-12 max-w-3xl">
+            <h2 class="text-sm font-bold tracking-widest text-cyan-700 uppercase mb-3">Our Strategic Framework</h2>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">The PAACE Vision</h3>
+            <p class="text-lg text-gray-700">
+                At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive <strong>PAACE Vision</strong>,
+                a strategic framework that guides every innovation, policy reform, and community engagement we undertake.
+                It’s our commitment to creating a healthier future for all.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- P -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
+                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">P</div>
+                <div class="flex items-start gap-4 relative z-10">
+                    <img src="img/group.png" alt="Icon" class="w-10 h-10" />
+                    <div>
+                        <h4 class="font-bold text-gray-900 text-base">Promoting Health Advancement</h4>
+                        <p class="text-sm text-gray-600 mt-1">
+                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                            Friendly bachelor entrance to on by.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- A -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
+                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">A</div>
+                <div class="flex items-start gap-4 relative z-10">
+                    <img src="img/image.svg" alt="Icon" class="w-10 h-10" />
+                    <div>
+                        <h4 class="font-bold text-gray-900 text-base">Accountability</h4>
+                        <p class="text-sm text-gray-600 mt-1">
+                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                            Friendly bachelor entrance to on by.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- A -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
+                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">A</div>
+                <div class="flex items-start gap-4 relative z-10">
+                    <img src="img/frame.svg" alt="Icon" class="w-10 h-10" />
+                    <div>
+                        <h4 class="font-bold text-gray-900 text-base">Advancement</h4>
+                        <p class="text-sm text-gray-600 mt-1">
+                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                            Friendly bachelor entrance to on by.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- C -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md relative">
+                <div class="absolute text-[120px] font-black text-cyan-700 opacity-5 top-0 right-2 leading-none">C</div>
+                <div class="flex items-start gap-4 relative z-10">
+                    <img src="img/frame-2.svg" alt="Icon" class="w-10 h-10" />
+                    <div>
+                        <h4 class="font-bold text-gray-900 text-base">Citizen Engagement</h4>
+                        <p class="text-sm text-gray-600 mt-1">
+                            Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
+                            Friendly bachelor entrance to on by.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Lucide Icons -->
 <script src="https://unpkg.com/lucide@latest"></script>
