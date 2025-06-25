@@ -95,7 +95,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <!-- Item 1 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="heart-handshake" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="heart-handshake" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">Federal and State Ministries of Health</h3>
                     <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
@@ -104,7 +104,7 @@
 
             <!-- Item 2 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="landmark" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="landmark" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">Local Government Authorities</h3>
                     <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
@@ -113,7 +113,7 @@
 
             <!-- Item 3 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="users" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="users" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">Community Based Organizations</h3>
                     <p class="text-sm text-black/60 mt-1">Nunc tristique quis leo duis gravida volutpat vitae</p>
@@ -122,7 +122,7 @@
 
             <!-- Item 4 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="globe" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="globe" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">Development Partners</h3>
                     <p class="text-sm text-black/60 mt-1">Fermentum nisl accumsan nisi sapien in vitae</p>
@@ -131,7 +131,7 @@
 
             <!-- Item 5 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="graduation-cap" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="graduation-cap" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">Academic Institutions</h3>
                     <p class="text-sm text-black/60 mt-1">Ultricies lacus turpis proin tempor faucibus</p>
@@ -140,7 +140,7 @@
 
             <!-- Item 6 -->
             <div class="flex items-start gap-5">
-                <i data-lucide="hospital" class="w-12 h-12 text-cyan-700"></i>
+                <i data-lucide="hospital" class="w-12 h-12 text-[#FF7F50]"></i>
                 <div>
                     <h3 class="text-xl font-bold font-teachers">National and International Health Agencies</h3>
                     <p class="text-sm text-black/60 mt-1">Adipiscing in vitae nec posuere eget fringilla a morbi</p>
@@ -366,12 +366,12 @@
     </div>
 </section>
 
-<section class="relative bg-white py-20">
-    <div class="container mx-auto px-4">
-        <!-- Heading -->
-        <div class="mb-12 max-w-3xl">
+<section class="py-16 bg-white sm:py-20 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto">
             <h2 class="text-sm font-bold tracking-widest text-cyan-700 uppercase mb-3">Our Strategic Framework</h2>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">The PAACE Vision</h3>
+            <h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl mb-4">The PAAC Vision</h3>
             <p class="text-lg text-gray-700">
                 At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive
                 <strong>PAACE Vision</strong>, a strategic framework that guides every innovation, policy reform, and community
@@ -379,86 +379,86 @@
             </p>
         </div>
 
-        <!-- Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Grid -->
+        <div class="grid grid-cols-1 mt-12 gap-y-12 text-center sm:grid-cols-2 sm:gap-x-12 md:grid-cols-4 md:gap-y-16 xl:mt-20">
+
             <!-- P -->
-            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div class="p-6">
-                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">P</div>
-                    <i data-lucide="heart-pulse" class="mb-4 h-12 w-12 text-pink-500"></i>
-                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Promoting Health Advancement</h5>
-                    <p class="text-base font-light leading-relaxed text-gray-700">
-                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                        Friendly bachelor entrance to on by.
-                    </p>
+            <div class="md:px-4 relative">
+                <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">P</div>
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                    <i data-lucide="heart-pulse" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="mt-8 text-xl font-bold text-gray-900">Promoting Health Advancement</h3>
+                <p class="mt-4 text-base text-gray-600">
+                    Championing innovations and inclusive systems to improve health outcomes and quality of life for all.
+                </p>
             </div>
 
             <!-- A -->
-            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div class="p-6">
-                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">A</div>
-                    <i data-lucide="shield-check" class="mb-4 h-12 w-12 text-pink-500"></i>
-                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Accountability</h5>
-                    <p class="text-base font-light leading-relaxed text-gray-700">
-                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                        Friendly bachelor entrance to on by.
-                    </p>
+            <div class="md:px-4 md:border-l md:border-gray-200 relative">
+                <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">A</div>
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                    <i data-lucide="shield-check" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="mt-8 text-xl font-bold text-gray-900">Accountability</h3>
+                <p class="mt-4 text-base text-gray-600">
+                    Fostering transparency and evidence-driven action in public and community health engagement.
+                </p>
             </div>
 
             <!-- A -->
-            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div class="p-6">
-                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">A</div>
-                    <i data-lucide="arrow-up-right" class="mb-4 h-12 w-12 text-pink-500"></i>
-                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Advancement</h5>
-                    <p class="text-base font-light leading-relaxed text-gray-700">
-                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                        Friendly bachelor entrance to on by.
-                    </p>
+            <div class="md:px-4 md:border-l md:border-gray-200 relative">
+                <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">A</div>
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                    <i data-lucide="arrow-up-right" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="mt-8 text-xl font-bold text-gray-900">Advancement</h3>
+                <p class="mt-4 text-base text-gray-600">
+                    Driving forward policies, practices, and platforms that elevate public health equity and reach.
+                </p>
             </div>
 
             <!-- C -->
-            <div class="relative flex flex-col w-full rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div class="p-6">
-                    <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none">C</div>
-                    <i data-lucide="users" class="mb-4 h-12 w-12 text-pink-500"></i>
-                    <h5 class="mb-2 text-xl font-semibold text-blue-gray-900">Citizen Engagement</h5>
-                    <p class="text-base font-light leading-relaxed text-gray-700">
-                        Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he.
-                        Friendly bachelor entrance to on by.
-                    </p>
+            <div class="md:px-4 md:border-l md:border-gray-200 relative">
+                <div class="absolute text-[100px] font-black text-cyan-700 opacity-5 top-2 right-4 leading-none pointer-events-none select-none z-0">C</div>
+                <div class="relative z-10 flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-[#FF7F50] rounded-full shadow">
+                    <i data-lucide="users" class="h-6 w-6 text-[#FF7F50]"></i>
                 </div>
+                <h3 class="mt-8 text-xl font-bold text-gray-900">Citizen Engagement</h3>
+                <p class="mt-4 text-base text-gray-600">
+                    Empowering communities to take part in shaping solutions and holding systems accountable.
+                </p>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- Include Lucide Icons -->
-<script src="https://unpkg.com/lucide@latest"></script>
 
 <section class="bg-white py-16">
     <div class="container mx-auto px-4 flex flex-col gap-12">
-        <!-- Title Vertical Text + Line -->
+
         <!-- Section Header -->
         <div class="flex items-center mb-12">
             <div class="w-12 h-px bg-gray-700 mr-4"></div>
             <h2 class="text-cyan-700 text-sm font-bold uppercase tracking-widest">Current Activities</h2>
         </div>
 
-
         <!-- Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
             <!-- Card 1 -->
-            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Out-of-School Study" class="w-full h-40 object-cover">
-                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
-                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Access to Education</span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-black">Out-of-School Children Study</h3>
-                        <p class="text-sm text-slate-600">
+            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Out-of-School Study" class="w-full h-40 object-cover rounded-t">
+                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
+                    <div class="w-fit">
+  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+    Access to Education
+  </span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="text-base font-semibold text-black leading-snug">Out-of-School Children Study</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
                             Investigating drivers of out-of-school children in Kano State to inform recommendations.
                         </p>
                     </div>
@@ -466,13 +466,17 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Child Labor Study" class="w-full h-40 object-cover">
-                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
-                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Child Protection</span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-black">Child Labor Study</h3>
-                        <p class="text-sm text-slate-600">
+            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Child Labor Study" class="w-full h-40 object-cover rounded-t">
+                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
+                    <div class="w-fit">
+  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+    Child Protection
+  </span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="text-base font-semibold text-black leading-snug">Child Labor Study</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
                             Examining factors of child labor to propose actionable solutions and mitigate practices.
                         </p>
                     </div>
@@ -480,13 +484,17 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Diabetes Study" class="w-full h-40 object-cover">
-                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
-                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Public Health</span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-black">Diabetes Study</h3>
-                        <p class="text-sm text-slate-600">
+            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Diabetes Study" class="w-full h-40 object-cover rounded-t">
+                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
+                    <div class="w-fit">
+  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+    Public Health
+  </span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="text-base font-semibold text-black leading-snug">Diabetes Study</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
                             Researching rising diabetes incidences in Northern Nigeria to offer prevention strategies.
                         </p>
                     </div>
@@ -494,32 +502,71 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="relative w-full max-w-sm mx-auto bg-white rounded shadow-md overflow-hidden">
-                <img src="https://placehold.co/369x160" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
-                <div class="p-4 border border-gray-200 shadow-sm space-y-4">
-                    <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Substance Control</span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-black">Drug Vigilance Study</h3>
-                        <p class="text-sm text-slate-600">
+            <div class="relative w-[369px] h-[377px] mx-auto overflow-hidden">
+                <img src="https://placehold.co/369x160" alt="Drug Vigilance Study" class="w-full h-40 object-cover rounded-t">
+                <div class="absolute top-[141px] left-4 w-[337px] bg-white border border-gray-200 shadow-sm rounded p-4 flex flex-col gap-6">
+                    <div class="w-fit">
+  <span class="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
+    Substance Control
+  </span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="text-base font-semibold text-black leading-snug">Drug Vigilance Study</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
                             Assessing drug misuse among youth to guide government remediation actions.
                         </p>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- Lucide Init -->
-<script>
-    lucide.createIcons();
-</script>
+<section class="py-16 bg-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
+            <!-- Children Reached -->
+            <div class="flex flex-col items-center space-y-3">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                    <i data-lucide="rocket" class="w-6 h-6 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-4xl font-bold text-[#FF7F50]">20k+</h3>
+                <p class="text-lg font-semibold text-gray-600">Children Reached</p>
+            </div>
 
-<!-- Lucide Init -->
-<script>
-    lucide.createIcons();
-</script>
+            <!-- Communities Engaged -->
+            <div class="flex flex-col items-center space-y-3">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                    <i data-lucide="users" class="w-6 h-6 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-4xl font-bold text-[#FF7F50]">50+</h3>
+                <p class="text-lg font-semibold text-gray-600">Communities Engaged</p>
+            </div>
+
+            <!-- Individuals Empowered -->
+            <div class="flex flex-col items-center space-y-3">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                    <i data-lucide="activity" class="w-6 h-6 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-4xl font-bold text-[#FF7F50]">3.5k+</h3>
+                <p class="text-lg font-semibold text-gray-600">Individuals Empowered</p>
+            </div>
+
+            <!-- Youth Champions Trained -->
+            <div class="flex flex-col items-center space-y-3">
+                <div class="w-14 h-14 flex items-center justify-center bg-white border-2 border-orange-200 rounded-full shadow">
+                    <i data-lucide="graduation-cap" class="w-6 h-6 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-4xl font-bold text-[#FF7F50]">1k+</h3>
+                <p class="text-lg font-semibold text-gray-600">Youth Champions Trained</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 <!-- Lucide Icons -->
 <script src="https://unpkg.com/lucide@latest"></script>
