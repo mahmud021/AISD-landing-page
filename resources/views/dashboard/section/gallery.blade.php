@@ -31,9 +31,8 @@
                 @endfor
             </div>
         </div>
+        <!-- Blur Overlays (Apply ONLY to marquee rows) -->
+        <div class="pointer-events-none absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-white via-white/80 to-transparent z-10"></div>
+        <div class="pointer-events-none absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-white via-white/80 to-transparent z-10"></div>
     </div>
-    <!-- Blur Overlays (Apply ONLY to marquee rows) -->
-    <div class="pointer-events-none absolute top-32 left-0 w-32 h-[calc(100%-8rem)] bg-gradient-to-r from-white via-white/80 to-transparent z-10"></div>
-    <div class="pointer-events-none absolute top-32 right-0 w-32 h-[calc(100%-8rem)] bg-gradient-to-l from-white via-white/80 to-transparent z-10"></div>
 </section>
-

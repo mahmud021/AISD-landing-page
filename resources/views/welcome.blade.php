@@ -20,8 +20,8 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-black">
-    @include('dashboard.section.hero')
+<body class="bg-[#F8F8F8]">
+@include('dashboard.section.hero')
     @include('dashboard.section.about')
     @include('dashboard.section.paace')
     @include('dashboard.section.partners')
@@ -29,8 +29,8 @@
     @include('dashboard.section.stats')
     @include('dashboard.section.volunteers')
     @include('dashboard.section.gallery')
-<!-- Lucide Icons -->
-<script src="https://unpkg.com/lucide@latest"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
 <script>
     lucide.createIcons();
 </script>

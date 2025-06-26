@@ -34,3 +34,7 @@
 .group:hover .group-hover\:paused {
     animation-play-state: paused;
 }
+
+body {
+    background-color: #F8F8F8;
+}
