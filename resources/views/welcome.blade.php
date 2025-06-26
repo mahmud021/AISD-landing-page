@@ -83,63 +83,6 @@
         </div>
     </div>
 </section>
-
-<section class="bg-gray-100 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="text-center mb-12">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Who We Work With</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Partnerships That Power Our Impact</p>
-        </div>
-
-        <!-- Grid Layout -->
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12">
-            <!-- Item -->
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="heart-handshake" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">Federal and State Ministries of Health</h3>
-            </div>
-
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="landmark" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">Local Government Authorities</h3>
-            </div>
-
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="users" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">Community Based Organizations</h3>
-            </div>
-
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="globe" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">Development Partners</h3>
-            </div>
-
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="graduation-cap" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">Academic Institutions</h3>
-            </div>
-
-            <div class="flex flex-col items-center text-center space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
-                    <i data-lucide="hospital" class="w-8 h-8 text-[#FF7F50]"></i>
-                </div>
-                <h3 class="text-sm font-semibold text-gray-800">National & Int’l Health Agencies</h3>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
@@ -307,7 +250,6 @@
         </div>
     </div>
 </section>
-
 <section class="py-16 bg-white sm:py-20 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <!-- Section Header -->
@@ -375,8 +317,61 @@
         </div>
     </div>
 </section>
+<section class="bg-gray-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Who We Work With</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Partnerships That Power Our Impact</p>
+        </div>
 
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12">
+            <!-- Item -->
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="heart-handshake" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">Federal and State Ministries of Health</h3>
+            </div>
 
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="landmark" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">Local Government Authorities</h3>
+            </div>
+
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="users" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">Community Based Organizations</h3>
+            </div>
+
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="globe" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">Development Partners</h3>
+            </div>
+
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="graduation-cap" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">Academic Institutions</h3>
+            </div>
+
+            <div class="flex flex-col items-center text-center space-y-4">
+                <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md border-2 border-[#FF7F50] outline outline-[3px] outline-[#ff7f5044] transition duration-300 hover:scale-105">
+                    <i data-lucide="hospital" class="w-8 h-8 text-[#FF7F50]"></i>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-800">National & Int’l Health Agencies</h3>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="bg-white py-16">
     <div class="container mx-auto px-4 flex flex-col gap-12">
 
@@ -456,7 +451,47 @@
         </div>
     </div>
 </section>
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Projects We Have Done</h2>
+            <p class="text-3xl sm:text-4xl font-bold text-gray-800">
+                Holistic Development: Community-Led Transformation Programs
+            </p>
+        </div>
 
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Project Card -->
+            @foreach([
+              ['img' => '10.jpg', 'title' => 'Girl Child Education Program', 'desc' => 'Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.'],
+              ['img' => '11.jpg', 'title' => 'Hygiene Promotion Campaign', 'desc' => 'MAAUN students educate communities on waste management and environmental cleanliness.'],
+              ['img' => '12.jpg', 'title' => 'Out-of-School Children Program', 'desc' => 'Provides alternative schooling and daily nutrition to street hawkers and child laborers.'],
+              ['img' => '13.jpg', 'title' => 'Conflict Management and Peacebuilding', 'desc' => 'Equipping individuals with communication and mediation skills for conflict resolution.'],
+              ['img' => '14.jpg', 'title' => 'Livelihood Training Centers', 'desc' => 'Training centers in Maiduguri, Bama, and Ngala for vocational skills.'],
+              ['img' => '15.jpg', 'title' => 'Economic Empowerment Initiative', 'desc' => 'Boot camps for women and youth traders focused on business and financial skills.']
+            ] as $project)
+                <div class="relative overflow-hidden rounded-2xl shadow-lg group">
+                    <!-- Project Image -->
+                    <img src="{{ asset('images/' . $project['img']) }}" alt="{{ $project['title'] }}"
+                         class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+
+                    <!-- Gradient Overlay -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+
+                    <!-- Text Content -->
+                    <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                        <h3 class="text-lg font-bold drop-shadow-md">{{ $project['title'] }}</h3>
+                        <p class="text-sm mt-1 drop-shadow-md">{{ $project['desc'] }}</p>
+                    </div>
+                </div>
+            @endforeach
+
+        </div>
+    </div>
+</section>
 <section class="py-16 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -500,8 +535,6 @@
         </div>
     </div>
 </section>
-
-<!-- component -->
 <section class="py-12 bg-white sm:py-16 lg:py-20">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center mb-12">
@@ -566,49 +599,6 @@
         </div>
     </div>
 </section>
-
-<section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="text-center mb-12">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Projects We Have Done</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">
-                Holistic Development: Community-Led Transformation Programs
-            </p>
-        </div>
-
-        <!-- Grid Layout -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            <!-- Project Card -->
-            @foreach([
-              ['img' => '10.jpg', 'title' => 'Girl Child Education Program', 'desc' => 'Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.'],
-              ['img' => '11.jpg', 'title' => 'Hygiene Promotion Campaign', 'desc' => 'MAAUN students educate communities on waste management and environmental cleanliness.'],
-              ['img' => '12.jpg', 'title' => 'Out-of-School Children Program', 'desc' => 'Provides alternative schooling and daily nutrition to street hawkers and child laborers.'],
-              ['img' => '13.jpg', 'title' => 'Conflict Management and Peacebuilding', 'desc' => 'Equipping individuals with communication and mediation skills for conflict resolution.'],
-              ['img' => '14.jpg', 'title' => 'Livelihood Training Centers', 'desc' => 'Training centers in Maiduguri, Bama, and Ngala for vocational skills.'],
-              ['img' => '15.jpg', 'title' => 'Economic Empowerment Initiative', 'desc' => 'Boot camps for women and youth traders focused on business and financial skills.']
-            ] as $project)
-                <div class="relative overflow-hidden rounded-2xl shadow-lg group">
-                    <!-- Project Image -->
-                    <img src="{{ asset('images/' . $project['img']) }}" alt="{{ $project['title'] }}"
-                         class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
-
-                    <!-- Gradient Overlay -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-
-                    <!-- Text Content -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
-                        <h3 class="text-lg font-bold drop-shadow-md">{{ $project['title'] }}</h3>
-                        <p class="text-sm mt-1 drop-shadow-md">{{ $project['desc'] }}</p>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-    </div>
-</section>
-
 <section class="relative bg-white py-20 overflow-hidden">
     <!-- Section Header -->
     <div class="text-center mb-12 relative z-20">
