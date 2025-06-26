@@ -16,20 +16,22 @@
         rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Teachers:wght@700&family=Lexend:wght@800&family=Inter:wght@400;600&family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Teachers:wght@700&family=Lexend:wght@800&family=Inter:wght@400;600&family=Rubik:wght@700&display=swap"
+        rel="stylesheet">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-black">
-    @include('dashboard.section.hero')
-    @include('dashboard.section.about')
-    @include('dashboard.section.paace')
-    @include('dashboard.section.partners')
-    @include('dashboard.section.projects')
-    @include('dashboard.section.stats')
-    @include('dashboard.section.volunteers')
-    @include('dashboard.section.gallery')
-<!-- Lucide Icons -->
+<body class="bg-[#F8F8F8]">
+@include('dashboard.section.hero')
+@include('dashboard.section.about')
+@include('dashboard.section.paace')
+@include('dashboard.section.partners')
+@include('dashboard.section.projects')
+@include('dashboard.section.stats')
+@include('dashboard.section.volunteers')
+@include('dashboard.section.gallery')
+
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
     lucide.createIcons();
