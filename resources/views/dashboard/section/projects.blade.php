@@ -10,7 +10,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Card 1 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('images/6.jpg') }}" alt="Out-of-School Study" class="w-full h-40 object-cover">
+                <img src="{{ asset('images/6.webp') }}" alt="Out-of-School Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Access to Education
@@ -25,7 +25,7 @@
             </div>
             <!-- Card 2 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('images/7.jpg') }}" alt="Child Labor Study" class="w-full h-40 object-cover">
+                <img src="{{ asset('images/7.webp') }}" alt="Child Labor Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Child Protection
@@ -40,7 +40,7 @@
             </div>
             <!-- Card 3 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('images/8.jpg') }}" alt="Diabetes Study" class="w-full h-40 object-cover">
+                <img src="{{ asset('images/8.webp') }}" alt="Diabetes Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Public Health
@@ -55,7 +55,7 @@
             </div>
             <!-- Card 4 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('images/9.jpg') }}" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
+                <img src="{{ asset('images/9.webp') }}" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Substance Control
@@ -85,12 +85,12 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project Card -->
             @foreach([
-              ['img' => '10.jpg', 'title' => 'Girl Child Education Program', 'desc' => 'Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.'],
-              ['img' => '11.jpg', 'title' => 'Hygiene Promotion Campaign', 'desc' => 'MAAUN students educate communities on waste management and environmental cleanliness.'],
-              ['img' => '12.jpg', 'title' => 'Out-of-School Children Program', 'desc' => 'Provides alternative schooling and daily nutrition to street hawkers and child laborers.'],
-              ['img' => '13.jpg', 'title' => 'Conflict Management and Peacebuilding', 'desc' => 'Equipping individuals with communication and mediation skills for conflict resolution.'],
-              ['img' => '14.jpg', 'title' => 'Livelihood Training Centers', 'desc' => 'Training centers in Maiduguri, Bama, and Ngala for vocational skills.'],
-              ['img' => '15.jpg', 'title' => 'Economic Empowerment Initiative', 'desc' => 'Boot camps for women and youth traders focused on business and financial skills.']
+              ['img' => '10.webp', 'title' => 'Girl Child Education Program', 'desc' => 'Empowers JSS3 and SS3 girls to excel in exit exams through after-school tutoring by MAAUN student mentors.'],
+              ['img' => '11.webp', 'title' => 'Hygiene Promotion Campaign', 'desc' => 'MAAUN students educate communities on waste management and environmental cleanliness.'],
+              ['img' => '12.webp', 'title' => 'Out-of-School Children Program', 'desc' => 'Provides alternative schooling and daily nutrition to street hawkers and child laborers.'],
+              ['img' => '13.webp', 'title' => 'Conflict Management and Peacebuilding', 'desc' => 'Equipping individuals with communication and mediation skills for conflict resolution.'],
+              ['img' => '14.webp', 'title' => 'Livelihood Training Centers', 'desc' => 'Training centers in Maiduguri, Bama, and Ngala for vocational skills.'],
+              ['img' => '15.webp', 'title' => 'Economic Empowerment Initiative', 'desc' => 'Boot camps for women and youth traders focused on business and financial skills.']
             ] as $project)
                 <div class="relative overflow-hidden rounded-2xl shadow-lg group">
                     <!-- Project Image -->

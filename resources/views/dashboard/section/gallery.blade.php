@@ -13,10 +13,10 @@
         <div class="group overflow-hidden relative">
             <div class="flex gap-6 animate-marquee group-hover:paused">
                 @for ($i = 1; $i <= 5; $i++)
-                    <img src="{{ asset('images/' . $i . '.jpg') }}" class="h-40 w-auto rounded-xl object-cover" />
+                    <img src="{{ asset('images/' . $i . '.webp') }}" class="h-40 w-auto rounded-xl object-cover" />
                 @endfor
                 @for ($i = 1; $i <= 2; $i++)
-                    <img src="{{ asset('images/' . $i . '.jpg') }}" class="h-40 w-auto rounded-xl object-cover" />
+                    <img src="{{ asset('images/' . $i . '.webp') }}" class="h-40 w-auto rounded-xl object-cover" />
                 @endfor
             </div>
         </div>
@@ -24,10 +24,10 @@
         <div class="group overflow-hidden relative">
             <div class="flex gap-6 animate-marquee-reverse group-hover:paused">
                 @for ($i = 6; $i <= 10; $i++)
-                    <img src="{{ asset('images/' . $i . '.jpg') }}" class="h-40 w-auto rounded-xl object-cover" />
+                    <img src="{{ asset('images/' . $i . '.webp') }}" class="h-40 w-auto rounded-xl object-cover" />
                 @endfor
                 @for ($i = 6; $i <= 7; $i++)
-                    <img src="{{ asset('images/' . $i . '.jpg') }}" class="h-40 w-auto rounded-xl object-cover" />
+                    <img src="{{ asset('images/' . $i . '.webp') }}" class="h-40 w-auto rounded-xl object-cover" />
                 @endfor
             </div>
         </div>
