@@ -19,7 +19,7 @@
         </p>
         <div class="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full w-full max-w-md border border-white/20 mb-4">
             <div class="shrink-0 bg-white w-10 h-10 rounded-full flex items-center justify-center">
-                <i class="fas fa-graduation-cap text-aisd-orange text-xl"></i>
+                <i data-lucide="graduation-cap" class="h-8 w-8 "></i>
             </div>
             <span class="text-white text-sm md:text-base font-inter font-semibold leading-snug break-words">
     Development arm of Maryam Abacha American University of Nigeria
