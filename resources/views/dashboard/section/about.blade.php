@@ -1,17 +1,48 @@
-<!-- About Section -->
+<!-- About Section with Static Spread Cards and Orange Borders -->
 <section class="w-full py-16 px-6 md:px-16 bg-white">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        <!-- Image -->
-        <div class="w-full md:w-[45%]">
-            <img
-                src="{{asset('images/2.webp')}}"
-                alt="AISD banner"
-                class="w-full h-auto rounded-2xl object-cover shadow-md"
-            />
+        <!-- Static Spread Cards with Orange Borders -->
+        <div class="w-full md:w-[45%] relative min-h-[400px]">
+            <!-- Card Behind 1 (Left) -->
+            <div class="absolute left-0 top-10 w-[90%] -rotate-6 rounded-2xl bg-white shadow-lg z-10 border-4 border-orange-500/20">
+                <div class="p-4">
+                    <img
+                        src="{{asset('images/5.webp')}}"
+                        alt="AISD activity image"
+                        class="aspect-4/3 w-full rounded-xl object-cover"
+                    />
+                </div>
+            </div>
+
+            <!-- Card Behind 2 (Right) -->
+            <div class="absolute right-0 top-10 w-[90%] rotate-6 rounded-2xl bg-white shadow-lg z-10 border-4 border-orange-500/20">
+                <div class="p-4">
+                    <img
+                        src="{{asset('images/4.webp')}}"
+                        alt="AISD community work"
+                        class="aspect-4/3 w-full rounded-xl object-cover"
+                    />
+                </div>
+            </div>
+
+            <!-- Main Card (Center) with Stronger Orange Border -->
+            <div class="absolute left-1/2 top-0 w-[90%] -translate-x-1/2 rounded-2xl bg-white shadow-lg z-20 border-4 border-orange-500">
+                <div class="p-4">
+                    <img
+                        src="{{asset('images/2.webp')}}"
+                        alt="AISD banner"
+                        class="aspect-4/3 w-full rounded-xl object-cover"
+                    />
+                </div>
+                <div class="px-4 pb-4">
+                    <h3 class="font-semibold">AISD in Action</h3>
+                    <h4 class="text-sm font-medium text-gray-600">Community Health Initiatives</h4>
+                </div>
+            </div>
         </div>
 
         <!-- Text Content -->
-        <div class="flex-1 space-y-6">
+        <div class="flex-1 space-y-6 mt-[200px] md:mt-0">
             <h2 class="text-3xl md:text-5xl font-bold font-teachers leading-snug">
                 A Commitment to Stronger
                 <span class="text-orange-500">African Nations</span>
@@ -26,6 +57,8 @@
         </div>
     </div>
 </section>
+
+<!-- Second Section (unchanged) -->
 <section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
@@ -62,7 +95,6 @@
                     <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">About Us</h2>
                     <p class="text-3xl sm:text-4xl font-bold text-gray-800">Learn About Our Mission and Work</p>
                 </div>
-
 
                 <!-- Vision Statement -->
                 <p class="text-base text-gray-600  mb-10 max-w-md">
@@ -112,4 +144,3 @@
         </div>
     </div>
 </section>
-
