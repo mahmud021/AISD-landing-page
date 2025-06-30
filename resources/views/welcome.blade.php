@@ -28,6 +28,8 @@
 @include('dashboard.section.stats')
 @include('dashboard.section.volunteers')
 @include('dashboard.section.gallery')
+@include('dashboard.section.contact-us')
+@include('dashboard.section.footer')
 
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
