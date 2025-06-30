@@ -1,62 +1,99 @@
 <!-- About Section with Static Spread Cards and Orange Borders -->
-<section class="w-full py-16 px-6 md:px-16 bg-white">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        <!-- Static Spread Cards with Orange Borders -->
-        <div class="w-full md:w-[45%] relative min-h-[400px]">
-            <!-- Card Behind 1 (Left) -->
-            <div class="absolute left-0 top-10 w-[90%] -rotate-6 rounded-2xl bg-white shadow-lg z-10 border-4 border-orange-500/20">
-                <div class="p-4">
-                    <img
-                        src="{{asset('images/5.webp')}}"
-                        alt="AISD activity image"
-                        class="aspect-4/3 w-full rounded-xl object-cover"
-                    />
+<section class="w-full py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 md:gap-12">
+        <!-- Cards Container -->
+        <div class="w-full lg:w-[45%]">
+            <!-- Mobile Stack - Main Card FIRST -->
+            <div class="lg:hidden space-y-6">
+                <!-- Main Card with Caption (Now First) -->
+                <div class="rounded-2xl bg-white shadow-lg border-4 border-orange-500 overflow-hidden transition-transform hover:scale-[1.02]">
+                    <div class="p-4">
+                        <img src="{{asset('images/2.webp')}}" alt="AISD community health initiative"
+                             class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="font-semibold">AISD in Action</h3>
+                        <h4 class="text-sm font-medium text-gray-600">Community Health Initiatives</h4>
+                    </div>
+                </div>
+
+                <!-- Secondary Cards (Now After) -->
+                <div class="rounded-2xl bg-white shadow-md border-4 border-orange-500/20 overflow-hidden">
+                    <div class="p-4">
+                        <img src="{{asset('images/5.webp')}}" alt="AISD educational activity"
+                             class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-white shadow-md border-4 border-orange-500/20 overflow-hidden">
+                    <div class="p-4">
+                        <img src="{{asset('images/4.webp')}}" alt="AISD field work"
+                             class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                    </div>
                 </div>
             </div>
 
-            <!-- Card Behind 2 (Right) -->
-            <div class="absolute right-0 top-10 w-[90%] rotate-6 rounded-2xl bg-white shadow-lg z-10 border-4 border-orange-500/20">
-                <div class="p-4">
-                    <img
-                        src="{{asset('images/4.webp')}}"
-                        alt="AISD community work"
-                        class="aspect-4/3 w-full rounded-xl object-cover"
-                    />
-                </div>
-            </div>
+            <!-- Desktop Overlap (Unchanged Layout) -->
+            <div class="hidden lg:block relative min-h-[360px]">
+                <div class="grid grid-cols-1 grid-rows-1 h-full">
+                    <!-- Left Card (Behind) -->
+                    <div class="col-start-1 row-start-1 flex justify-start items-start">
+                        <div class="w-[90%] -rotate-6 rounded-2xl bg-white shadow-lg border-4 border-orange-500/20
+                                    transition-transform hover:scale-105 hover:z-10">
+                            <div class="p-4">
+                                <img src="{{asset('images/5.webp')}}" alt="AISD activity"
+                                     class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- Main Card (Center) with Stronger Orange Border -->
-            <div class="absolute left-1/2 top-0 w-[90%] -translate-x-1/2 rounded-2xl bg-white shadow-lg z-20 border-4 border-orange-500">
-                <div class="p-4">
-                    <img
-                        src="{{asset('images/2.webp')}}"
-                        alt="AISD banner"
-                        class="aspect-4/3 w-full rounded-xl object-cover"
-                    />
-                </div>
-                <div class="px-4 pb-4">
-                    <h3 class="font-semibold">AISD in Action</h3>
-                    <h4 class="text-sm font-medium text-gray-600">Community Health Initiatives</h4>
+                    <!-- Right Card (Behind) -->
+                    <div class="col-start-1 row-start-1 flex justify-end items-start">
+                        <div class="w-[90%] rotate-6 rounded-2xl bg-white shadow-lg border-4 border-orange-500
+                                    transition-transform hover:scale-105 hover:z-10">
+                            <div class="p-4">
+                                <img src="{{asset('images/4.webp')}}" alt="AISD community work"
+                                     class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                            </div>
+                            <div class="px-4 pb-4">
+                                <h3 class="font-semibold">AISD in Action</h3>
+                                <h4 class="text-sm font-medium text-gray-600">Community Health Initiatives</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Center Card (Front) -->
+                    <div class="col-start-1 row-start-1 flex justify-center items-start">
+                        <div class="w-[90%] rounded-2xl bg-white shadow-xl border-4 border-orange-500/20
+                                    transition-transform hover:scale-[1.03] hover:z-20">
+                            <div class="p-4">
+                                <img src="{{asset('images/2.webp')}}" alt="AISD main initiative"
+                                     class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <!-- Text Content -->
-        <div class="flex-1 space-y-6 mt-[200px] md:mt-0">
-            <h2 class="text-3xl md:text-5xl font-bold font-teachers leading-snug">
+        <!-- Text Content (Unchanged) -->
+        <div class="w-full lg:w-[55%] space-y-4 md:space-y-6">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold font-teachers leading-tight md:leading-snug">
                 A Commitment to Stronger
                 <span class="text-orange-500">African Nations</span>
                 Through Healthier Communities
             </h2>
-            <p class="text-gray-700 text-base md:text-lg leading-relaxed font-inter">
+            <p class="text-gray-700 text-base md:text-lg leading-relaxed">
                 The Alliance for International Health and Development (AISD) is dedicated to strengthening health systems and enhancing well-being across Africa. As the development arm of the Maryam Abacha American University of Nigeria (MAAUN), AISD translates academic knowledge into real-world impact.
             </p>
-            <p class="text-gray-700 text-base md:text-lg leading-relaxed font-inter">
+            <p class="text-gray-700 text-base md:text-lg leading-relaxed">
                 Our core philosophy is that healthier communities are the foundation of stronger nations. We are committed to developing sustainable, evidence-based, and locally-driven health solutions.
             </p>
         </div>
     </div>
 </section>
+
 
 <!-- Second Section (unchanged) -->
 <section class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
