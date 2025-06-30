@@ -100,32 +100,61 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="-mx-4 flex flex-wrap items-center justify-between">
 
-            <!-- Left: TailGrids Image Layout -->
+            <!-- Left: Enhanced Image Gallery -->
             <div class="w-full px-4 lg:w-6/12">
                 <div class="-mx-3 flex items-center sm:-mx-4">
+                    <!-- Left Column -->
                     <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                        <div class="py-3 sm:py-4">
-                            <img src="{{asset('images/5.webp')}}" alt=""
-                                 class="w-full rounded-2xl" />
+                        <!-- Top Image with Tilt Effect -->
+                        <div class="py-3 sm:py-4 group relative">
+                            <div class="overflow-hidden rounded-2xl border-4 border-white shadow-2xl
+                                      transition-all duration-500 group-hover:border-orange-400
+                                      group-hover:shadow-lg group-hover:-translate-y-1">
+                                <img src="{{asset('images/5.webp')}}" alt="Community health activity"
+                                     class="w-full transform transition-transform duration-700 group-hover:scale-105"
+                                     loading="lazy" />
+                            </div>
+                            <div class="absolute -bottom-3 -right-3 h-16 w-16 rounded-full bg-orange-500
+                                      opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
                         </div>
-                        <div class="py-3 sm:py-4">
-                            <img src="{{asset('images/4.webp')}}" alt=""
-                                 class="w-full rounded-2xl" />
+
+                        <!-- Bottom Image with Floating Effect -->
+                        <div class="py-3 sm:py-4 group relative">
+                            <div class="overflow-hidden rounded-2xl border-4 border-white shadow-2xl
+                                      transition-all duration-500 group-hover:border-blue-400
+                                      group-hover:shadow-lg group-hover:-translate-y-1">
+                                <img src="{{asset('images/4.webp')}}" alt="Field research work"
+                                     class="w-full transform transition-transform duration-700 group-hover:scale-105"
+                                     loading="lazy" />
+                            </div>
+                            <div class="absolute -top-3 -left-3 h-12 w-12 rounded-lg bg-blue-500 rotate-12
+                                      opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
                         </div>
                     </div>
+
+                    <!-- Right Column - Featured Image -->
                     <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                        <div class="relative z-10 my-4">
-                            <img src="{{asset('images/3.webp')}}" alt=""
-                                 class="w-full rounded-2xl" />
-                            <span class="absolute -bottom-7 -right-7 z-[-1]">
-                                <!-- SVG omitted for brevity -->
-                            </span>
+                        <div class="relative z-10 my-4 group">
+                            <!-- Main Image with Decorative Elements -->
+                            <div class="overflow-hidden rounded-2xl border-8 border-white shadow-[0_25px_50px_-15px_rgba(0,0,0,0.3)]
+                                      transition-all duration-500 group-hover:border-orange-500/90
+                                      group-hover:shadow-xl">
+                                <img src="{{asset('images/3.webp')}}" alt="Team collaboration"
+                                     class="w-full transform transition-transform duration-700 group-hover:scale-105"
+                                     loading="lazy" />
+                            </div>
+
+                            <!-- Floating Decorative Elements -->
+                            <span class="absolute -bottom-6 -right-6 z-[-1] h-14 w-14 rounded-full bg-orange-500/20
+                                      group-hover:bg-orange-500/30 transition-all duration-500"></span>
+                            <span class="absolute -top-6 -left-6 z-[-1] h-10 w-10 rotate-45 bg-blue-500/20
+                                      group-hover:bg-blue-500/30 transition-all duration-500"></span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right: Your Numbered About Content -->
+            <!-- Right: Content Section (Unchanged Structure) -->
             <div class="w-full lg:w-1/2 px-4 mt-10 lg:mt-0">
                 <!-- Section Label -->
                 <div class="text-center mb-12">
@@ -134,46 +163,62 @@
                 </div>
 
                 <!-- Vision Statement -->
-                <p class="text-base text-gray-600  mb-10 max-w-md">
+                <p class="text-base text-gray-600 mb-10 max-w-md">
                     To improve health outcomes and well-being across Nigeria and Africa through people-centered innovation, evidence-based advocacy, and community-led solutions.
                 </p>
 
-                <!-- Info Grid -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <!-- Info Grid - Enhanced Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <!-- Item 1 -->
-                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
-                        <h3 class="text-4xl font-bold text-black  mb-2">1.</h3>
-                        <h4 class="text-xl font-bold text-black  mb-2">Our Mission</h4>
-                        <p class="text-gray-600  text-sm leading-relaxed">
-                            We focus on four key areas: conducting applied research, engaging communities in co-designing solutions, collaborating with institutions, and strengthening the capacity of health professionals.
-                        </p>
+                    <div class="bg-white p-6 rounded-xl border-l-4 border-orange-500 shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-start">
+                            <span class="text-4xl font-bold text-orange-500 mr-4">1.</span>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">Our Mission</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    We focus on four key areas: conducting applied research, engaging communities in co-designing solutions, collaborating with institutions, and strengthening capacity.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Item 2 -->
-                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
-                        <h3 class="text-4xl font-bold text-black  mb-2">2.</h3>
-                        <h4 class="text-xl font-bold text-black  mb-2">Our Health Strategy</h4>
-                        <p class="text-gray-600  text-sm leading-relaxed">
-                            We help by using evidence-based research, community-centered design, institutional collaboration, and strategic capacity strengthening to tackle health challenges.
-                        </p>
+                    <div class="bg-white p-6 rounded-xl border-l-4 border-blue-500 shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-start">
+                            <span class="text-4xl font-bold text-blue-500 mr-4">2.</span>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">Our Health Strategy</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    We help by using evidence-based research, community-centered design, institutional collaboration, and strategic capacity strengthening.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Item 3 -->
-                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
-                        <h3 class="text-4xl font-bold text-black  mb-2">3.</h3>
-                        <h4 class="text-xl font-bold text-black  mb-2">A Collaborative Approach</h4>
-                        <p class="text-gray-600  text-sm leading-relaxed">
-                            We are creating a future where all communities are empowered to lead healthier lives through accountable health systems, inclusive research, and sustainable development.
-                        </p>
+                    <div class="bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-start">
+                            <span class="text-4xl font-bold text-green-500 mr-4">3.</span>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">Collaborative Approach</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    We are creating a future where all communities are empowered to lead healthier lives through accountable health systems.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Item 4 -->
-                    <div class="bg-white -800 p-6 rounded-lg shadow-md">
-                        <h3 class="text-4xl font-bold text-black  mb-2">4.</h3>
-                        <h4 class="text-xl font-bold text-black  mb-2">Our Vision for Success</h4>
-                        <p class="text-gray-600  text-sm leading-relaxed">
-                            A future where health equity is driven by data, strengthened institutions, and empowered local leadership.
-                        </p>
+                    <div class="bg-white p-6 rounded-xl border-l-4 border-purple-500 shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-start">
+                            <span class="text-4xl font-bold text-purple-500 mr-4">4.</span>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">Our Vision</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    A future where health equity is driven by data, strengthened institutions, and empowered local leadership.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
